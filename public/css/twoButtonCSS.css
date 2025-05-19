@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&dispfont-family: "Special Gothic";lay=swap');
+#thePositioning {
+    position: absolute;
+    top: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 23;
+}
+
+#nightWhisperHeader {
+    font-size: 5em;
+    font-family: "Special Gothic";
+    text-align: center;
+    color: rgb(224, 224, 224);
+}
+
+#nightWhisperCaption {
+    text-align: center;
+    font-size: 3em;
+    font-family: "Special Gothic";
+    color: rgb(224, 224, 224);
+}
+
+#theButtonRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vw;
+    background-color: rgba(224, 224, 224, 0.753);
+    border-radius: 30px;
+    align-self: center;
+    margin-top: 3vh;
+    box-shadow: .6vh 0vh 1vh rgba(224, 224, 224, 0.281),
+     0vh .6vh 1vh rgb(224, 224, 224, 0.281),
+      0vh -.6vh 1vh rgba(224, 224, 224, 0.281),
+       0vh .6vh 1vh rgba(224, 224, 224, 0.281);
+}
+
+.buttons {
+    border-radius: 30px;
+    font-size: 1.6vw;
+    padding: 2.5vh 3.7vw;
+    width: 10vw;
+    height: 10vh;
+    font-family: "Special Gothic";
+    cursor: pointer;
+    border: 0px;
+    outline: 0px;
+}
+
+.buttons:active {
+    border: 0px;
+    outline: 0px;
+    background-color: rgb(224, 224, 224, 0.281);
+}
+
+.buttons:nth-child(1) {
+    
+    border-radius: 30px;
+    font-size: 1.6vw;
+    padding: 2.5vh 3.7vw;
+    width: 10vw;
+    height: 10vh;
+    background-color: pink;
+}
+
+.buttons:nth-child(1):active {
+    border: 0px;
+    outline: 0px;
+    background-color: rgb(224, 224, 224, 0.281);
+}

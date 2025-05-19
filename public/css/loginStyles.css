@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&dispfont-family: "Special Gothic";lay=swap');
+* {
+    margin: 0px;
+    transition: 300ms;
+    font-family: "Special Gothic";
+}
+
+#fullBackGround {
+    overflow: hidden;
+    border: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#video {
+    position: fixed;
+    overflow: hidden;
+    z-index: -1;
+}
+#theBlur {
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+}
