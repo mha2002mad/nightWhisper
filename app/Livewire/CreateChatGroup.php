@@ -25,7 +25,6 @@ class CreateChatGroup extends Component
         }
         $gc = groupChats::make();
         $this->theUUID = $gc->groupChatID;
-        // $this->theUUID = "xxxxxxxx xxxxxxxx xxxxxxxx";
         $c = CF::forever("groupChatID", $this->theUUID, httpOnly:true, sameSite: 'strict');
         cf::queue($c);
     }
